@@ -1,0 +1,155 @@
+body{
+  font-family: sans-serif;
+}
+
+section{
+  overflow: hidden;
+  width: 100%;
+}
+
+header{
+  .material-icons{
+    padding: 2px 0;
+    vertical-align: middle;
+  }
+  a{
+    font-size: 12px;
+    color: darkgrey;
+  }
+}
+
+//INTRO
+#intro{
+  .row{
+    margin-bottom: 0rem!important;
+  }
+  .col{
+    padding: 0rem!important;
+  }
+  overflow: hidden;
+  padding: 1rem 0;
+  h5{
+    font-weight: 600;
+  }
+  h5, p{
+    margin: 0rem!important;
+    font-family: sans-serif;
+  }
+
+  .intro-abouts{
+    padding: 0.4rem 0;
+    span{
+      .material-icons{
+        vertical-align: middle;
+        background-color: #bbb;
+        border-radius: 4px;
+      }
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+
+  .intro-days{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0rem 1rem;
+    display: inline-block;
+    .number{
+      font-size: 3.2rem;
+    }
+    span{
+      margin: 0rem!important;
+      display: inline-block;
+      font-family: sans-serif;
+      vertical-align: middle;
+    }
+  }
+  .intro-button{
+    padding: 1rem 0;
+  }
+}
+
+//TRIGGER
+#trigger{
+  padding: 3rem 0rem 2rem 0rem;
+  .card{
+    .trigger-area{
+      padding: 2rem 0;
+      font-family: sans-serif;
+      a{
+        font-weight: bolder;
+      }
+    }
+  }
+}
+
+//NEWSFEEDS
+#newsfeed{
+  padding-bottom: 3rem;
+  .col{
+    //padding: 0rem 2rem 0rem 0rem!important;
+  }
+  .newsfeed-item{
+    p{ text-align: justify;}
+  }
+}
+
+//PUBLICATIONS
+#publication{
+  padding: 3rem 0;
+  .publication-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div{
+      &:nth-child(1){
+        min-width: 35%;
+      }
+      &:nth-child(2){
+        padding: 1rem;
+      }
+      p{
+        font-size: 1rem;
+        font-weight: bolder;
+      }
+    }
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+//QUOTES
+#quotes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  span{
+    margin: 0rem 1rem;
+    .material-icons{
+      vertical-align: middle;
+    }
+    &:nth-child(1){
+      transform: rotate(180deg);
+    }
+  }
+}
+
+//FOOTER
+footer{
+  padding: 3rem 0;
+  .address{
+    span{
+      display: block;
+      color: grey;
+    }
+  }
+
+  .copyright{
+    padding: 2rem 0rem 0rem 0rem;
+    .copyright-text{
+      color: grey;
+    }
+  }
+}

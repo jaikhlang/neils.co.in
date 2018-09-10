@@ -1,0 +1,43 @@
+
+//CONTAINER
+@media #{$large-and-up} {
+  .container {
+    width: 80%!important;
+  }
+}
+
+//BRAND LOGO
+.brand-logo{
+  font-size: 1.4rem!important;
+}
+
+
+//CAROUSEL
+.carousel-slider{
+  //height: 480px!important;
+}
+
+//INDICATORS
+.indicators {
+  .indicator-item {
+    &.active {
+      background-color: #fff;
+    }
+
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 4px!important;
+    width: 15px!important;
+    margin: 24px 4px;
+    background-color: rgba(255,255,255,.5);
+
+    transition: background-color .3s;
+    border-radius: 0%!important;
+  }
+}
+
+//ROW
+.row{
+  margin-bottom: 0px!important;
+}
