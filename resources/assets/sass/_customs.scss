@@ -18,6 +18,7 @@ header{
   }
 }
 
+
 //INTRO
 #intro{
   .row{
@@ -85,7 +86,7 @@ header{
 
 //NEWSFEEDS
 #newsfeed{
-  padding-bottom: 3rem;
+  padding: 4rem 0;
   .col{
     //padding: 0rem 2rem 0rem 0rem!important;
   }
@@ -96,7 +97,7 @@ header{
 
 //PUBLICATIONS
 #publication{
-  padding: 3rem 0;
+  padding: 4rem 0;
   .publication-item{
     display: flex;
     justify-content: space-between;
@@ -111,6 +112,7 @@ header{
       p{
         font-size: 1rem;
         font-weight: bolder;
+        text-align:justify;
       }
     }
     img{
@@ -119,6 +121,7 @@ header{
     }
   }
 }
+
 
 //QUOTES
 #quotes {

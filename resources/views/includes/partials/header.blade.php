@@ -1,6 +1,10 @@
 <header class="grey lighten-4">
   <div class="container">
-    <span><i class="material-icons">event_note</i> Latest News: </span><a href="#">Announcement for the NEILS 2020 Conference at CIT Kokrajhar Assam</a>
+    <span class="">
+      <i class="material-icons">event_note</i>
+      <span>Latest News:</span>
+    </span>
+    <a href="#">Announcement for the NEILS 2020 Conference at CIT Kokrajhar Assam</a>
     <span class="right"><a href="">social icons</a></span>
   </div>
 </header>
@@ -11,9 +15,10 @@
       <a href="#" class="brand-logo red-text">NEILS <small class="grey-text text-darken-2">North Eastern Indian Linguistic Society</small></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a class="" href="{{ route('pages.index') }}">HOME</a></li>
-        <li><a class="" href="collapsible.html">ABOUT US</a></li>
+        <li><a class="" href="collapsible.html">LINGUISTIC ISSUES</a></li>
+        <li><a class="" href="collapsible.html">ABOUT NEILS</a></li>
         <li><a class="" href="collapsible.html">CONTACT US</a></li>
-        <li><a class="" href="badges.html" style="padding-right: 0px!important;"><span class="btn grey">REGISTER NOW</span></a></li>
+        {{-- <li><a class="" href="badges.html" style="padding-right: 0px!important;"><span class="btn grey">REGISTER NOW</span></a></li> --}}
       </ul>
     </div>
   </div>

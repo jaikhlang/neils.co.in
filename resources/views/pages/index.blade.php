@@ -41,27 +41,25 @@
 
 <section id="trigger" class="">
   <div class="container">
-    <div class="card">
-      <div class="row">
-        <div class="col s4">
-          <div class="center-align">
-            <div class="trigger-area">
-              <span><a class="grey-text text-darken-2" href="#">Connect With Members</a></span>
-            </div>
+    <div class="row">
+      <div class="col s4">
+        <div class="center-align">
+          <div class="trigger-area">
+            <span><a class="grey-text text-darken-2" href="#">Connect With Members</a></span>
           </div>
         </div>
-        <div class="col s4">
-          <div class="center-align">
-            <div class="trigger-area">
-              <span><a class="grey-text text-darken-2" href="#">Explore Linguistic Research</a></span>
-            </div>
+      </div>
+      <div class="col s4">
+        <div class="center-align">
+          <div class="trigger-area">
+            <span><a class="grey-text text-darken-2" href="#">Explore Linguistic Research</a></span>
           </div>
         </div>
-        <div class="col s4">
-          <div class="center-align">
-            <div class="trigger-area">
-              <span><a class="teal-text text-darken-2" href="#">Sign In | Join Now</a></span>
-            </div>
+      </div>
+      <div class="col s4">
+        <div class="center-align">
+          <div class="trigger-area">
+            <span><a class="teal-text text-darken-2" href="#">Sign In | Join Now</a></span>
           </div>
         </div>
       </div>
@@ -74,7 +72,7 @@
   <div class="container">
     <div class="row">
       <div class="col s12">
-        <div class="">
+        <div class="" id="newsFeed">
           <strong>FROM NEWS ROOM</strong>
         </div>
       </div>
@@ -106,7 +104,7 @@
   <div class="container">
     <div class="row">
       <div class="col s12">
-        <div class="">
+        <div class="" id="recentPublications">
           <strong>RECENT PUBLICATIONS</strong>
         </div>
       </div>
@@ -114,8 +112,8 @@
     <div class="row">
       <div class="col s6">
         <div class="publication-item">
-          <div class="card hoverable z-depth-0">
-            <img src="{{ asset('image/paper.png') }}" alt="">
+          <div class="">
+            <img src="{{ asset('image/paper1.jpg') }}" alt="">
           </div>
           <div class="">
             <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -126,8 +124,8 @@
       </div>
       <div class="col s6">
         <div class="publication-item">
-          <div class="card hoverable z-depth-0">
-            <img src="{{ asset('image/paper.png') }}" alt="">
+          <div class="">
+            <img src="{{ asset('image/paper2.jpg') }}" alt="">
           </div>
           <div class="">
             <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

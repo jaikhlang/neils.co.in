@@ -1,3 +1,13 @@
+//NAVBAR
+
+nav ul {
+  a{
+    padding: 0rem .5rem!important;
+    &:hover{
+      background-color: rgba(0,0,0,0)!important;
+    }
+  }
+}
 
 //CONTAINER
 @media #{$large-and-up} {

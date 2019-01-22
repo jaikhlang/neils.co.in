@@ -91,7 +91,7 @@ header a {
 }
 
 #newsfeed {
-  padding-bottom: 3rem;
+  padding: 4rem 0;
 }
 
 #newsfeed .newsfeed-item p {
@@ -99,7 +99,7 @@ header a {
 }
 
 #publication {
-  padding: 3rem 0;
+  padding: 4rem 0;
 }
 
 #publication .publication-item {
@@ -125,6 +125,7 @@ header a {
 #publication .publication-item div p {
   font-size: 1rem;
   font-weight: bolder;
+  text-align: justify;
 }
 
 #publication .publication-item img {
@@ -9678,6 +9679,14 @@ input[type=range]::-ms-thumb {
     text-align: center;
     margin-top: 1.2rem;
   }
+}
+
+nav ul a {
+  padding: 0rem 0.5rem !important;
+}
+
+nav ul a:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
 }
 
 @media only screen and (min-width: 993px) {

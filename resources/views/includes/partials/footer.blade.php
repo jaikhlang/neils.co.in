@@ -11,8 +11,22 @@
     </div>
     <div class="divider" style="margin: 2rem 0;"></div>
     <div class="row">
-      <div class="col s4"></div>
-      <div class="col s4"></div>
+      <div class="col s4">
+        <ul>
+          <li><a href="" class="">Linguistic Researches</a></li>
+          <li><a href="" class="">Office Bearer</a></li>
+          <li><a href="" class="">Archive 2017-2018</a></li>
+          <li><a href="" class="">Downloads</a></li>
+        </ul>
+      </div>
+      <div class="col s4">
+        <ul>
+          <li><a href="" class="">Member Area</a></li>
+          <li><a href="" class="">Useful Links</a></li>
+          <li><a href="" class="">About Us</a></li>
+          <li><a href="" class="">Donate</a></li>
+        </ul>
+      </div>
       <div class="col s4">
         <div class="address">
           <span>Balagaon Rangalikhata Kokrajhar</span>
