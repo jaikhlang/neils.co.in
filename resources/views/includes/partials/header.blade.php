@@ -16,7 +16,7 @@
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a class="" href="{{ route('pages.index') }}">HOME</a></li>
         <li><a class="" href="collapsible.html">LINGUISTIC ISSUES</a></li>
-        <li><a class="" href="collapsible.html">ABOUT NEILS</a></li>
+        <li><a class="" href="{{ route('pages.about') }}">ABOUT NEILS</a></li>
         <li><a class="" href="collapsible.html">CONTACT US</a></li>
         {{-- <li><a class="" href="badges.html" style="padding-right: 0px!important;"><span class="btn grey">REGISTER NOW</span></a></li> --}}
       </ul>

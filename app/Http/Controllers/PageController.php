@@ -16,6 +16,10 @@ class PageController extends Controller
         return view('pages.index');
     }
 
+    public function about(){
+      return view('pages.about');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
