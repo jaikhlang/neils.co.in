@@ -1,26 +1,31 @@
 @extends('includes.layout')
 @section('stylesheets')
+<style media="screen">
 
+</style>
 @endsection
 
 @section('content')
 
-<section id="about" class="">
+<section id="about" class="grey lighten-2 ">
   <div class="container">
     <div class="row">
       <div class="col s12">
-        <div class="">
-          <span>
-            NEILS is a forum for the study of the languages of North East india.
-            The NE Indian languages are the richest and most diversed, yet also one of the least-well-known
+        <div class="col s4"></div>
+        <div class="col s8 white about-text">
+          <h6 class="about-heading red-text">ABOUT NORTH EASTERN INDIAN LINGUISTIC SOCIETY (NEILS)</h6>
+          <span class="half-border"></span>
+          <span class="block">
+            NEILS is a forum for the study of the languages of North East India.
+            The North East Indian languages are the richest and most diversed, yet also one of the least-well-known
             region of the linguistic world. NEILS was founded in the year 2006 in Gauhati University having consensus
             with the scholars from linguistic department of Gauhati University and research scholars of Latrobes University, Australia and
             scholars from University of Oregon, USA. Among the pioneer founders of NEILS, we can mention the names of Proff. Jyoti Prakash Tamuli, GU,
             Dr. Stephen Morey, Dr. Mark Post from Latrobe University, Australia.
           </span>
-          <span>
-            The first International Conference of NEILS was held at GU in 2006. In this conference several interesting papers on T.B languages of any Indian
-            and good number of papers on Assamesse and some other I.A languages of NE India where received. Then onwards NEILS has immerged as a well known
+          <span class="block">
+            The first International Conference of NEILS was held at GU in 2006. In this conference several interesting papers on Tibeto Burmese languages of any Indian
+            and good number of papers on Assamesse and some other Indo Asian languages of NE India where received. Then onwards NEILS has immerged as a well known
             forum for the scholars across India and overseas for the linguistic studies of languages of North East India.
           </span>
         </div>

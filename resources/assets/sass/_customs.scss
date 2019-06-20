@@ -2,6 +2,12 @@ body{
   font-family: sans-serif;
 }
 
+.block{
+  display: block;
+}
+.inline-block{
+  display: inline-block;
+}
 section{
   overflow: hidden;
   width: 100%;
@@ -14,7 +20,7 @@ header{
   }
   a{
     font-size: 12px;
-    color: darkgrey;
+    // color: darkgrey;
   }
 }
 
@@ -42,11 +48,20 @@ header{
     span{
       .material-icons{
         vertical-align: middle;
-        background-color: #bbb;
+        background-color: #fff;
         border-radius: 4px;
+        cursor: pointer;
+        &:hover{
+          background-color: red;
+          color: white!important;
+        }
       }
       display: inline-block;
       vertical-align: middle;
+    }
+
+    .conference-note{
+      margin-left: 2rem;
     }
   }
 
@@ -154,5 +169,40 @@ footer{
     .copyright-text{
       color: grey;
     }
+  }
+}
+
+#about{
+  background-image: url('https://bodolandobserver.files.wordpress.com/2015/08/bodogirlsfighter.jpg');
+  // background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtRM_xI0iOF0YsRkEAY3KJJQ-PNivSLQ5K1XUHLBXcMS8cue2-');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: left;
+  .about-text{
+    padding: 2rem;
+    border-left: 6px solid indianred;
+    border-radius: 4px;
+  }
+  .about-heading{
+    //border-bottom: 1px solid indianred;
+    position: relative;
+    line-height: normal;
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+  .half-border{
+    display: inline-block;
+    height: 1px;
+    border-bottom: 2px solid red;
+    width: 60%;
+    //padding: .5rem 0;
+    margin: .5rem 0;
+  }
+
+  padding: 4rem 0;
+  .block{
+    padding-bottom: 1rem;
+    text-align: justify;
   }
 }

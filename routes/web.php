@@ -12,4 +12,6 @@
 */
 
 Route::get('/', 'PageController@index')->name('pages.index');
+Route::get('/issues', 'PageController@about')->name('pages.issues');
 Route::get('/about', 'PageController@about')->name('pages.about');
+Route::get('/contact', 'PageController@about')->name('pages.contact');

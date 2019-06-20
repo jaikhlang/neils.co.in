@@ -14,25 +14,26 @@
 <section id="intro" class="grey lighten-2">
   <div class="container">
     <div class="row">
-      <div class="col s5">
+      <div class="col s8">
         <div class="intro-abouts">
-          <span><i class="material-icons medium">layers</i></span>
-          <span>
-            <h5 class="red-text">CONFERENCE 2020</h5>
-            <p class="grey-text text-darken-2">Dont Miss The Event Conference NEILS 2020</p>
+          <span><i class="material-icons red-text medium">notifications_none</i></span>
+          <span class="conference-note">
+            <h5 class="red-text">NEILS 11<sup>TH</sup> ANNUAL CONFERENCE 2020</h5>
+            {{-- <p class="grey-text text-darken-2">Dont Miss The Event Conference NEILS 2020</p> --}}
+            <p class="grey-text text-darken-2">WILL BE HELD IN CENTRAL INSTITUTE OF TECHNOLOGY KOKRAJHAR<br>IN THE MONTH OF FEBRUARY 2019</p>
           </span>
         </div>
       </div>
-      <div class="col s3 center-align">
+      {{-- <div class="col s3 left-align">
         <span class="intro-days">
           <span class="red-text number">566</span>
           <span>DAYS<br>TO GO</span>
         </span>
-      </div>
+      </div> --}}
 
       <div class="col s4">
-        <div class="intro-button">
-          <a href="#" class="waves-effect waves-light btn grey white-text right">REGISTER FOR CONFERENCE 2020</a>
+        <div class="intro-button right">
+          <a href="#" class="btn-large waves-effect waves-light red white-text">REGISTER FOR CONFERENCE 2020</a>
         </div>
       </div>
     </div>
